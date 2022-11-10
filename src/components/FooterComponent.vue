@@ -49,7 +49,9 @@
     <button>Sign-up Now!</button>
     
     <div>
+    <div class="flex">
     <div><h4>Follow us</h4></div>
+    </div>
     
     </div>
 
@@ -241,6 +243,20 @@
 
     .subfooter{
         background-color: $greylight;
+
+        button{
+            border: 1px solid $blue;
+            padding: 1rem;
+            background-color: transparent;
+            color: $white;
+            text-transform: uppercase;
+        }
+
+        h4{
+            color: $white;
+            text-transform: uppercase;
+        }
+
     }
 
 </style>
