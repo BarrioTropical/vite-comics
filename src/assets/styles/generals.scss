@@ -19,3 +19,9 @@ img{
     margin: 0 auto;
     padding: 1rem;
 }
+
+.flex-between{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
