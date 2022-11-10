@@ -16,7 +16,7 @@
         <li><a href="#">Shop</a></li>
         </ul>
         </div>
-</div>
+        </div>
     </header> 
 </template>
 

@@ -5,15 +5,45 @@
     </section>
 
     <section class="merch">
-        <ul class="container">
+        <div class="flex container">
+        <ul class="flex">
         <li>
-        <div>
-            <img src="../assets/img/buy-comics-digital-comics.png" alt="">
-            <h3>Digital Comics</h3>
+        <div class="flex">
+        <img src="../assets/img/buy-comics-digital-comics.png" alt="">
+        <h4>Digital Comics</h4>
         </div>
-        
         </li>
+
+        <li>
+        <div class="flex">
+        <img src="../assets/img/buy-comics-merchandise.png" alt="">
+        <h4>Dc Merchandise</h4>
+        </div>
+        </li>
+
+        <li>
+        <div class="flex">
+        <img src="../assets/img/buy-comics-subscriptions.png" alt="">
+        <h4>Subscription</h4>
+        </div>
+        </li>
+
+        <li>
+        <div class="flex">
+        <img src="../assets/img/buy-comics-shop-locator.png" alt="">
+        <h4>Comic Shop Locator</h4>
+        </div>
+        </li>
+
+        <li>
+        <div class="flex">
+        <img src="../assets/img/buy-dc-power-visa.svg" alt="">
+        <h4>Dc Power Visa</h4>
+        </div>
+        </li>
+        
         </ul>
+        </div>
     </section>
 
     </main>
@@ -40,10 +70,26 @@
         color: $white;
     }
     img{
-        max-width: 50px;
+        max-width: 30px;
     }
 
     section{
         padding: 20px;
+    }
+
+    .flex {
+        display: flex;  
+        justify-content: space-between;
+        vertical-align: middle;
+    }
+
+    ul{
+        li{
+            list-style: none;
+        }
+
+        h4{
+            text-transform: uppercase;
+        }
     }
 </style>
