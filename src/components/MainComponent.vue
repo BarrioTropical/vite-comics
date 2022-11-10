@@ -79,17 +79,23 @@
 
     .flex {
         display: flex;  
-        justify-content: space-between;
+        justify-content: space-around;
         vertical-align: middle;
     }
 
     ul{
+
+        vertical-align: middle;
+
         li{
             list-style: none;
+            padding: 10px;
         }
 
         h4{
             text-transform: uppercase;
+            padding: 3px;
+            font-size: 15px;
         }
     }
 </style>
