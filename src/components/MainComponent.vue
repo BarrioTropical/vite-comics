@@ -10,7 +10,7 @@
 
             <li v-for="(data, index) in data" :key="index">
                 <div class="flex">
-                <img :src="data.url" alt="">
+                <img :src="getImagePath(`../assets/img/${data.url}`)" alt="">
                 <h4>{{ data.text }}</h4>
                 </div>  
             </li>
@@ -51,6 +51,11 @@
                 ]
             }
         },  
+        methods: {
+            getImagePath(imgPath){
+                return new URL(imgPath, import.meta.url).href;
+            }
+        },
 
     }
 </script>
